@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*Navbar*/
+header{
+    background-color: ghostwhite; 
+}
+
+.logo{
+    margin: 15px 20px;
+    padding: 15px;
+}
+
+.logo img{
+    width: 7.5em;
+ 
+}
+.container{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navbar{
+   position: absolute;
+   top: 65px;
+   right: 0;
+
+}
+
+
+ul li{
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    margin: 0 0 0 15px;
+}
+
+ul li a{
+    text-decoration:none;
+   text-transform: uppercase;
+   color: black;
+   font-weight: bold;
+}
+
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+
+}
+
+a:active{
+    color:blue
+}
+
+/*banner*/
+#banner{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+     ,url(../img/banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+}
+#banner img{
+    width: 100%;
+   
+}
+
+
+/*products*/
+
+.products h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.products{
+    width: 945px;
+    margin: 0 auto;
+    padding: 55px;
+}
+
+.products li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.products h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.products img{
+    width: 14em;
+
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+}
+
+.products li:hover {
+    border-color: blueviolet;
+}
+
+.products li:hover h2{
+    font-size: 21px;
+}
+
+.products li:active{
+    border-color: blue;
+}
+
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-image: url('../img/bg.jpg');
+}
+
+footer img{
+    width: 115px;
+    margin-bottom: 15px;
+}
+
+
+
+.copyright {
+    color: white;
+    font-family: sans-serif;
+    font-size:13px;
+
+}
+
+
+
+
+
+.container_contactos{
+    margin: 0 auto;
+    background-color:ghostwhite;
+    display: flex;
+    
+}
+
+
+.ubicacion{
+    display: inline-block;
+    padding: 0 30px;
+    width: 60%;
+    margin-top: 120px; 
+    
+}
+
+.ubicacion h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: lightgrey;
+    margin-left: 330px;
+    margin-bottom: 10px;
+
+   
+}
+
+
+
+.ubicacion h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: lightgray;
+    margin-left: 330px;
+   
+
+}
+
+
+
+form{
+    margin: 30px 0;
+}
+
+
+.form_contacto{
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 30%;
+    
+
+}
+form input, form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    width: 55%;
+    border: darkgray;
+    border-radius:5px ;
+}
+
+
+.text-contact{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.enviar{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+.enviar:hover{
+    background-color: blueviolet;
+}
+
+.enviar:active{
+    background-color: blue;
+}
