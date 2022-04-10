@@ -178,6 +178,14 @@ footer img{
 
 /*contactenos*/
 
+#contactos h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin:10px 5px;
+}
+
+
 .bg_contactos{
     background-color: ghostwhite;
     width: 100%;
