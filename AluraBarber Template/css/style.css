@@ -255,28 +255,3 @@ form input, form textarea{
     margin: 0 auto;
 }
 
-
-@media screen and (max-width: 991px) {
-    .navbar{
-        width: 100%;
-        text-align: center;
-        padding: 25px;
-    }
-    
-    .products{
-        width: 100%;
-    }
-
-    .products img{
-        width: 10rem;
-    };
-
-   
-    
-    
-}
-
-@media screen  and (max-widht:480px){
-    
-    
-}
