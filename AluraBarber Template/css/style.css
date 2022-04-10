@@ -91,6 +91,7 @@ a:active{
 
 /*products*/
 
+
 .products h1{
     text-align: center;
     margin-bottom: 25px;
@@ -175,63 +176,34 @@ footer img{
 
 
 
+/*contactenos*/
 
-.container_contactos{
-    margin: 0 auto;
-    background-color:ghostwhite;
-    display: flex;
-    
-}
-
-
-.ubicacion{
-    display: inline-block;
-    padding: 0 30px;
-    width: 60%;
-    margin-top: 120px; 
-    
-}
-
-.ubicacion h1{
-    font-family: sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: lightgrey;
-    margin-left: 330px;
-    margin-bottom: 10px;
-
-   
-}
-
-
-
-.ubicacion h2{
-    font-family: sans-serif;
-    font-size: 20px;
-    color: lightgray;
-    margin-left: 330px;
-   
-
-}
-
-
-
-form{
-    margin: 30px 0;
+.bg_contactos{
+    background-color: ghostwhite;
+    width: 100%;
 }
 
 
 .form_contacto{
-    display: inline-block;
-    margin: 0 0 10px;
-    padding: 10px 25px;
-    width: 30%;
-    
+    display:flex;
+   justify-content: space-between;
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
 
 }
+
+
+.img_contactos img{
+    width: 350px;
+    height: 415px;
+    margin-top: 10px ;
+}
+
+
 form input, form textarea{
     display: block;
-    margin: 0 0 20px;
+    margin:50px auto;
     padding: 10px 15px;
     width: 55%;
     border: darkgray;
@@ -239,11 +211,11 @@ form input, form textarea{
 }
 
 
-.text-contact{
+.text-form{
+    margin-top: 10px;
     font-family: sans-serif;
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -262,4 +234,49 @@ form input, form textarea{
 
 .enviar:active{
     background-color: blue;
+}
+
+/*mapa*/
+.title{
+     text-align: center;
+     font-size: 25px;
+     font-family: sans-serif;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+
+.mapa{
+    padding-bottom: 2em;
+}
+
+.google_map{
+    width: 945px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 991px) {
+    .navbar{
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+    }
+    
+    .products{
+        width: 100%;
+    }
+
+    .products img{
+        width: 10rem;
+    };
+
+   
+    
+    
+}
+
+@media screen  and (max-widht:480px){
+    
+    
 }
